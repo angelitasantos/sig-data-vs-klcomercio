@@ -1,0 +1,101 @@
+.margin-header {
+    margin-bottom: 70px;
+}
+
+.table-width-desc {
+    min-width: 550px;
+}
+
+.table-width-text {
+    min-width: 350px;
+}
+
+.table-width-qty {
+    min-width: 80px;
+}
+
+.table-width-value {
+    min-width: 120px;
+}
+
+.tr-width {
+    line-height: 30px;
+    word-spacing: 2px;
+}    
+
+.icon-home {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.table {
+    font-size: 0.8rem;
+}
+
+#search-item {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .table-width-text,
+    .table-width-service {
+        min-width: 300px;
+    }
+}
+
+.input-group-text {
+    width: 100px;
+    height: calc(1.75rem + 2px);
+}
+
+#TRow>td .form-control {
+    border: 0px;
+}
+
+@media print {
+
+    col.m01 {
+        visibility: collapse;
+    }
+
+    .bi {
+        display: none;
+    }
+
+    .table-width-desc {
+        min-width: 400px;
+    }
+
+    .table-width-text {
+        min-width: 240px;
+    }
+
+    .table-width-qty {
+        min-width: 70px;
+    }
+
+    .table-width-value {
+        min-width: 120px;
+    }
+
+    .btn,
+    .no-print {
+        display: none;
+    }
+
+    .form-control,
+    .input-group-text {
+        border: 0px;
+    }
+}
